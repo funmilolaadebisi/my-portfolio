@@ -117,7 +117,8 @@ nav {
     background: var(--clr-red-light);
     box-shadow: var(--dark-shadow);
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+    align-items: center;
     position: fixed;
     width: 100%;
 }
@@ -128,12 +129,12 @@ nav {
 }
 
 /* For mobile view */
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 768px) {
     nav {
         justify-content: center;
     }
     .links{
-        margin: 0 1rem;
+        margin: 0 1.2rem;
     }
 }
 
@@ -141,7 +142,7 @@ nav {
     display: block;
     font-size: 1.1rem;
     letter-spacing: var(--spacing);
-    padding: 1rem;
+    padding: 0.8rem;
 } 
 .links a:hover {
     background: var(--clr-primary-1-5);
