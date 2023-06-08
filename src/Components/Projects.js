@@ -1,13 +1,13 @@
 import React from "react";
-import { mywork } from "../data";
+import { projects } from "../data";
 
-const MyWork = () => {
+const Projects = () => {
   return (
-    <section id="mywork" className="project-section">
+    <section id="projects" className="project-section">
       <h2 className="project-header">Some of my projects...</h2>
       <div className="project-container">
-        {mywork.map((work) => {
-          const { id, image, href, title } = work;
+        {projects.map((project) => {
+          const { id, image, href, title } = project;
           return (
             <div key={id} className="project-tile">
               <a href={href} target="_blank">
@@ -26,4 +26,4 @@ const MyWork = () => {
   );
 };
 
-export default MyWork;
+export default Projects;

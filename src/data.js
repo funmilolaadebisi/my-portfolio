@@ -1,7 +1,7 @@
 import React from "react"
 import { FaLinkedin, FaGithub, FaTwitter, FaMailBulk } from 'react-icons/fa'
 
-export const mywork = [
+export const projects = [
   {
     id: 1,
     image: "https://i.ibb.co/fDxVVmY/image-1.jpg",
