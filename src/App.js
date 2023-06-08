@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from './Components/Navbar'
 import About from './Components/About'
-import Projects from './Components/Projects'
+import MyWork from './Components/MyWork'
 import Contact from './Components/Contact'
 
 
@@ -10,7 +10,7 @@ const App = () => {
     <>
         <Navbar/>
         <About/>
-        <Projects/>
+        <MyWork/>
         <Contact/>
         <footer></footer>
     </>
