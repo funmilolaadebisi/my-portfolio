@@ -8,7 +8,7 @@ const About = () => {
           Hi, my name is <span className="name">Funmilola</span>
         </h1>
         <p>and I'm a Front-End Web Developer.</p>
-        <p>I build and code beautiful things for the web.</p>
+        <p>I love bringing ideas to life in the browser with React.</p>
       </div>
     </section>
   );

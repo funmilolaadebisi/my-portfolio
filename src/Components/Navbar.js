@@ -1,5 +1,5 @@
 import React from "react";
-import resume from "../images/FUNMILOLA ADEBISI.pdf";
+import resume from "../../src/FUNMILOLA-ADEBISI.pdf";
 
 const Navbar = () => {
   return (
@@ -17,7 +17,7 @@ const Navbar = () => {
               <a href="#contact">Contact</a>
             </li>
             <li>
-              <a href={resume} download="FUNMILOLA ADEBISI" target="_blank">
+              <a href={resume} download="FUNMILOLA-ADEBISI" target="_blank" rel="noreferrer">
                 Resume
               </a>
             </li>
