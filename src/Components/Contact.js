@@ -5,8 +5,8 @@ const Contact = () => {
   return (
     <section id="contact" className="contact-section">
       <div className="contact-section-header">
-        <h2>Interested in hiring me? Kindly contact me, I'm always open to discussing opportunities...</h2>
-        <p>You can find me on</p>
+        <h2>Interested in hiring me? I'm always open to discussing opportunities</h2>
+        <p>Kindly contact me on</p>
       </div>
       <ul className="social-icons">
         {socials.map((social) => {
