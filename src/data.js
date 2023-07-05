@@ -4,9 +4,9 @@ import { FaLinkedin, FaGithub, FaTwitter, FaMailBulk } from 'react-icons/fa'
 export const projects = [
   {
     id: 1,
-    image: "https://i.ibb.co/fDxVVmY/image-1.jpg",
-    url: "https://sli-der.netlify.app/",
-    title: "Slider",
+    image: "https://i.ibb.co/CnqHTNs/image-1.jpg",
+    url: "https://cocktailssdb.netlify.app/",
+    title: "Cocktail DB",
   },
   {
     id: 2,
